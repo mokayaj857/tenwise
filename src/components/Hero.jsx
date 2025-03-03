@@ -73,15 +73,20 @@ const LandingPage = () => {
           className="relative container mx-auto px-6 py-4"
         >
           <div className="flex justify-between items-center">
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="flex items-center space-x-2"
-            >
-              <div className={`text-3xl font-bold bg-clip-text text-transparent 
-                ${darkMode ? 'bg-gradient-to-r from-pink-400 to-purple-400' : 'bg-gradient-to-r from-pink-600 to-purple-600'}`}>
-                Teenwise
-              </div>
-            </motion.div>
+          <motion.div
+  whileHover={{ scale: 1.05 }}
+  className="flex items-center space-x-2"
+>
+  {/* Image */}
+  <img 
+    src="/src/assets/teen.png" // Replace with the actual path to your image
+    alt="Teenwise Logo" 
+    className="w-40 h-10" // Adjust the width and height as needed
+  />
+
+  {/* Text */}
+  
+</motion.div>
 
             <motion.div 
               variants={staggerContainer}
@@ -223,8 +228,8 @@ const LandingPage = () => {
                 }}
                 className="relative z-10"
               >
-                {/* Placeholder for hero image */}
-                <div className="w-full h-96 rounded-2xl bg-gradient-to-br from-pink-100 to-purple-100 dark:from-pink-900 dark:to-purple-900 shadow-2xl overflow-hidden">
+                
+                <div className="  ">
                   <motion.div
                     animate={{
                       scale: [1, 1.1, 1],
@@ -240,7 +245,7 @@ const LandingPage = () => {
                     <img
                       src="/src/assets/image.png"
                       alt="Supportive Community"
-                      className="w-full h-full object-cover opacity-80"
+                      className="w-full h-full object-cover opacity-1000"
                     />
                   </motion.div>
                 </div>
