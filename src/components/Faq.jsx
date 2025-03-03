@@ -1,5 +1,5 @@
-import { useState, useEffect, useRef } from 'react';
 import React from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ChevronDown, MessageCircle, Shield, Book, Heart, Users, HelpCircle, Calendar, Mail, Info } from 'lucide-react';
 
 const TeenwiseFAQ = () => {
@@ -359,7 +359,7 @@ const TeenwiseFAQ = () => {
               className="inline-block bg-white font-bold py-3 px-6 sm:px-8 rounded-full hover:scale-105 transition-all duration-300 relative overflow-hidden group animate-fadeInUp animation-delay-200"
               style={{color: theme.primary}}
             >
-              <span className="relative z-10 flex items-center">
+              <span className="relative z-10 flex items-full">
                 <MessageCircle className="w-4 h-4 mr-2" />
                 <span>Contact Teenwise Now</span>
               </span>
