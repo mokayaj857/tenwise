@@ -28,7 +28,7 @@ const LandingPage = () => {
     }
   };
 
-  const navItems = ["About", "Resources", "Get Help"];
+  const navItems = [ "Home", "About Us", "Chat with your Sidekick"];
 
   return (
     <AnimatePresence>
